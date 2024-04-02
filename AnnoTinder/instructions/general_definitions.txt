@@ -5,7 +5,7 @@ Deze taak omvat het beoordelen van de toon van tweets als negatief, positief of 
 De aanwezigheid van misinformatie in tweets wordt bepaald aan de hand van verschillende criteria, zoals of de inhoud controleerbaar is, overeenkomt met wetenschappelijke feiten, de bron betrouwbaar is en de auteur geloofwaardigheid heeft. 
 
 **Toxiciteit**: Bevat deze tweet toxische taal? 
-De toon van tweets kan variëren van zeer vriendelijk en beleefd tot zeer giftig, afhankelijk van hoe respectvol en positief ze zijn in de discussie.
+De toon van tweets kan variëren van zeer vriendelijk en beleefd tot zeer toxisch, afhankelijk van hoe respectvol en positief ze zijn in de discussie.
 
 **Politieke standpunt** In welke mate reflecteert dit bericht een links- of rechts politiek standpunt?
 Dit verwijs naar in hoeverre de Tweet overeenkomt met linkse- of rechtse politieke ideologieën. 
