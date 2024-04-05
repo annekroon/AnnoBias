@@ -172,3 +172,10 @@ TSWLatexianTemp*
 
 # jupyter notebook
 .ipynb_checkpoints/
+.Rproj.user
+
+# R project meuk
+*.Rproj
+
+# venv
+env/*
