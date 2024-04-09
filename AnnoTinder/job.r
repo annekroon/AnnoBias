@@ -4,17 +4,17 @@ source('AnnoTinder/train_units.r')
 source('AnnoTinder/codebook.r')
 
 
-n_tweets = 3330
+n_tweets = 1860
 n_anno = 30
-overlap = 3
+overlap = 5
 
 n_batches = n_tweets / n_anno
 batch_indices = rep(1:n_batches, each=n_anno)
-batches = split(unit_ids, batch_indices)
+batches = split(unit_ids[1:n_tweets], batch_indices)
 
 ## The estimated 330 codes falls 3 coders short...
 message(sprintf('Need %s coders per condition to code %s units with %s overlap and %s units per coder', 
-        length(batches)*3, n_tweets, overlap, n_anno))
+        length(batches)*overlap, n_tweets, overlap, n_anno))
 
 
 ## create a jobset for every batch
@@ -39,7 +39,7 @@ backend_connect('https://annotinder.up.railway.app', 'a.c.kroon@uva.nl')
 upload_job("AnnoBias 1 (test)", units=units_condition_1_2_3, codebook=codebook, pre=intro_units, jobsets=jobsets, debrief=debrief_condition1)
 
 
-create_job('voorbeeld', units=intro_units, codebook=codebook) |>
+create_job('voorbeeld', units=units_condition_1_2_3, codebook=codebook) |>
   create_job_db(overwrite=T) |>
   start_annotator()
 
