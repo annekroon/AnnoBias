@@ -1,4 +1,4 @@
-df <- read.csv("data/final_stratified_immigration_non_immigration.csv")
+df <- read.csv("data/final_stratified_immigration.csv")
 
 df$id <- as.character(df$tweet_id)
 # Print the data frame
