@@ -1,3 +1,6 @@
+# INSTRUCTIES BEOORDELEN TWEETS
+Hieronder volgen gedetaileerde instructies voor het beoordelen van tweets. 
+
 # RECHTS STANDPUNT
 
 Hier is een samenvatting van de politieke verschillen tussen **links (progressief)** en **rechts (conservatief)** op verschillende beleidsterreinen. Dit kan helpen om te bepalen of een standpunt een links of rechts beleidsstandpunt vertegenwoordigt:
@@ -47,3 +50,30 @@ Hier is een samenvatting van de politieke verschillen tussen **links (progressie
 
 * LINKS: De overheid moet belastingen op vluchten verhogen om het aantal vluchten en CO2-uitstoot te verminderen. De overheid moet nieuwe internationale treinverbindingen aanmoedigen en economisch ondersteunen om de CO2-uitstoot te verminderen.
 * RECHTS: Luchthavens zijn essentieel voor een internationaal sterke economie. Mensen moeten vrij zijn om te kiezen hoe ze willen reizen, en de overheid moet vermijden om de transportmarkt te verstoren.
+
+# NEGATIEVE TOON
+
+Deze taak betreft het beoordelen van de toon van tweets in het algemeen. Voor elke tweet willen we vaststellen in hoeverre deze al dan niet negatief van toon is. 
+* Een tweet wordt als negatief beschouwd als er duidelijk en expliciet een **negatief** oordeel wordt gegeven over een situatie, persoon, object of gebeurtenis. 
+* Een tweet wordt als positief beschouwd als er duidelijk en expliciet een **positief** oordeel wordt gegeven over een situatie, persoon, object of gebeurtenis. 
+* Een tweet wordt als **neutraal** beschouwd als het alleen feitelijke informatie bevat zonder een duidelijk oordeel over de situatie of gebeurtenis.
+
+# TOXISCHE TAAL
+
+Een tweet is toxisch as het tekst bevat die onbeleefd, respectloos, of onredelijk is en die het waarschijnlijk maakt dat mensen zich niet meer in de discussie willen mengen. Toxisch taalgebruik omvat onder meer scheldwoorden, beledigende taal, het aanvallen van een specifieke groep op basis van ras of geslacht, sarcasme, roddelen of negatief praten over iemand achter hun rug, of het delen van gevoelige inhoud.  
+
+* Helemaal onwaar: Een tweet die bijzonder beleefd, vriendelijk en respectvol is, en anderen aanmoedigt om hun perspectief te delen en deel te nemen aan de discussie.  
+* Gedeeltelijk onwaar: Een tweet die beleefd en respectvol is, en bijdraagt aan een positieve discussieomgeving, maar mogelijk nog ruimte laat voor verbetering.  
+* Neutraal: Een neutrale tweet die geen duidelijke beleefdheid of onbeleefdheid uitdrukt, en de discussie niet beïnvloedt in termen van positiviteit of negativiteit.  
+* Gedeeltelijk waar: Een tweet die neigt naar onbeleefdheid, respectloosheid of negativiteit, maar mogelijk niet extreem schadelijk is voor de discussieomgeving.  
+* Helemaal waar: Een tweet die onbeleefd, respectloos, negatief of anderszins schadelijk is voor de discussieomgeving.  
+
+# MISINFORMATIE
+
+Misinformatie verwijst naar de mate waarin een tweet informatie bevat die feitelijk onjuist is en/of niet gebaseerd is op relevante expertise en empirisch bewijs.
+
+* Helemaal onwaar - Er zijn sterke aanwijzingen dat de inhoud van de tweet geen misinformatie bevat. De inhoud kan worden geverifieerd aan de hand van controleerbare feiten of bronnen, is in overeenstemming met wetenschappelijke consensus en komt van betrouwbare bronnen met geloofwaardige reputaties.
+* Gedeeltelijk onwaar - Er zijn enkele aanwijzingen dat de inhoud van de tweet mogelijk misinformatie bevat, maar het grootste deel van de informatie lijkt nauwkeurig te zijn.
+* Neutraal - Kan niet met zekerheid zeggen of de inhoud misinformatie bevat vanwege gebrek aan informatie of context.
+* Gedeeltelijk waar - Er zijn sterke aanwijzingen dat de inhoud van de tweet gedeeltelijk misinformatie bevat. De informatie kan niet worden geverifieerd aan de hand van controleerbare feiten of bronnen, is niet in overeenstemming met gevestigde feiten of wetenschappelijke consensus, en/of komt van onbetrouwbare bronnen.
+* Helemaal waar - Er zijn sterke aanwijzingen dat de inhoud van de tweet volledig misinformatie bevat. De informatie kan niet worden geverifieerd aan de hand van controleerbare feiten of bronnen, is niet in overeenstemming met gevestigde feiten of wetenschappelijke consensus, en/of komt van onbetrouwbare bronnen."

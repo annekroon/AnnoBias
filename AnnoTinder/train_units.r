@@ -20,34 +20,32 @@ intro_unit_2 = create_unit("welkom2",
 
 
 political_stance_training <- question("political_stance_training", 
-                                      "In welke mate reflecteert dit bericht een links- of rechts politiek standpunt?",
+                                      "Deze tweet reflecteert een rechts (in vergelijking tot links) politiek standpunt",
                                       instruction = read_and_concatenate("AnnoTinder/instructions/political_stance.txt")  , 
-                                      codes = c( darkgrey = 'Volledig links/ progressief -- Links/ progressief -- Enigszins links/progressief',
-                                                 grey = 'Neutraal/ onduidelijk', 
-                                                 darkgrey = 'Engiszins rechts/ conservatief -- Rechts/conservatief -- Helemaal rechts/ conservatief'))
+                                      codes = c( darkgrey = 'Onwaar',
+                                                 grey = 'Neutraal', 
+                                                 darkgrey = 'Waar'))
 
 ## sentiment
 sentiment_training <- question("sentiment_training", 
-                               "Is deze tweet negatief of positief van toon?",
+                               "Deze tweet heeft een negatieve toon.",
                                instruction = read_and_concatenate("AnnoTinder/instructions/sentiment.txt") , 
-                               codes = c( darkred = 'Zeer negatief -- Negatief -- Enigszins negatief',
-                                          grey = 'Neutral/onduidelijk', 
-                                          darkgreen = 'Enigszins positief -- Positief -- Zeer positief'))
-
+                                      codes = c( darkgrey = 'Onwaar',
+                                                 grey = 'Neutraal', 
+                                                 darkgrey = 'Waar'))
 ## toxic
 toxic_training <- question("toxic_training", 
-                           "Bevat deze tweet toxische taal?",
+                           "Deze tweet bevat toxische taal",
                            instruction = read_and_concatenate("AnnoTinder/instructions/toxic.txt")  , 
-                           codes = c( darkgreen = 'Zeer beleefd/ vriendelijk -- Beleefd/ vriendelijk -- Enigzins beleefd/vriendelijk',
-                                      grey = 'Neutraal/ onduidelijk', 
-                                      darkred = 'Enigzins toxisch -- Toxisch -- Zeer toxisch'))
-
+                                      codes = c( darkgrey = 'Onwaar',
+                                                 grey = 'Neutraal', 
+                                                 darkgrey = 'Waar'))
 ## misinformation
-misinformation_training  <- question("misinformation_training", "Bevat deze tweet misinformatie?",
+misinformation_training  <- question("misinformation_training", "Deze tweet bevat misinformatie.",
                                      instruction = read_and_concatenate("AnnoTinder/instructions/misinformation.txt")  , 
-                                     codes = c( darkgreen = 'Geen/ Waarschijnlijk geen/ Mogelijk geen misinformatie',
-                                                grey = 'Neutraal/ onduidelijk', 
-                                                darkred = 'Mogelijk/ Waarschijnlijk/ Zeker misinformatie'))
+                                      codes = c( darkgrey = 'Onwaar',
+                                                 grey = 'Neutraal', 
+                                                 darkgrey = 'Waar'))
 
 training_codebook <- create_codebook(political_stance_training, sentiment_training, toxic_training, misinformation_training)
 

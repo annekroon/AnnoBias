@@ -10,19 +10,19 @@ read_and_concatenate <- function(file_path) {
 ?question
 ## misinformation
 stellingen <- question("stellingen", 
-                  "In welke mate bent u het eens met de volgende stellingen?",
+                  "In hoeverre zijn de volgende stellingen waar?",
              type='scale',
-             instruction = read_and_concatenate("AnnoTinder/instructions/political_stance.txt")  , 
+             instruction = read_and_concatenate("AnnoTinder/instructions/instructions_variables.txt")  , 
              items = list(
                political_stance = "Deze tweet reflecteert een rechts (in vergelijking tot links) politiek standpunt.",
                sentiment = "Deze tweet heeft een negatieve toon.",
                toxic = "Deze tweet bevat toxische taal.",
                misinformation = "Deze tweet bevat misinformatie."
              ),
-             codes = c( 'Geheel mee oneens', 
-                        'Mee oneens', 
+             codes = c( 'Helemaal onwaar', 
+                        'Gedeeltelijk onwaar', 
                         'Neutraal', 
-                        'Mee eens',
-                        'Geheel mee eens'))
+                        'Gedeeltelijk waar',
+                        'Helemaal waar'))
 
 codebook <- create_codebook(stellingen)

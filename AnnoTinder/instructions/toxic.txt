@@ -1,9 +1,9 @@
+# TOXISCHE TAAL
+
 Een tweet is toxisch as het tekst bevat die onbeleefd, respectloos, of onredelijk is en die het waarschijnlijk maakt dat mensen zich niet meer in de discussie willen mengen. Toxisch taalgebruik omvat onder meer scheldwoorden, beledigende taal, het aanvallen van een specifieke groep op basis van ras of geslacht, sarcasme, roddelen of negatief praten over iemand achter hun rug, of het delen van gevoelige inhoud.  
 
-**Zeer beleefd/vriendelijk** - Een tweet die bijzonder beleefd, vriendelijk en respectvol is, en anderen aanmoedigt om hun perspectief te delen en deel te nemen aan de discussie.  
-**Beleefd/vriendelijk** - Een tweet die beleefd en respectvol is, en bijdraagt aan een positieve discussieomgeving.  
-**Enigszins beleefd/vriendelijk** - Een opmerking die een zekere mate van beleefdheid vertoont, maar mogelijk nog ruimte laat voor verbetering.  
-**Neutraal** - Een neutrale opmerking die geen duidelijke beleefdheid of onbeleefdheid uitdrukt, en de discussie niet beïnvloedt in termen van positiviteit of negativiteit.  
-**Enigszins toxisch** - Een opmerking die neigt naar onbeleefdheid, respectloosheid of negativiteit, maar mogelijk niet extreem schadelijk is voor de discussieomgeving.  
-**Toxisch** - Een opmerking die onbeleefd, respectloos, negatief of anderszins schadelijk is voor de discussieomgeving.  
-**Zeer toxisch** - Een opmerking die extreem onbeleefd, agressief, respectloos of anderszins zeer schadelijk is voor de discussieomgeving en waarschijnlijk anderen ontmoedigt om deel te nemen aan de discussie.  
+* Helemaal onwaar: Een tweet die bijzonder beleefd, vriendelijk en respectvol is, en anderen aanmoedigt om hun perspectief te delen en deel te nemen aan de discussie.  
+* Gedeeltelijk onwaar: Een tweet die beleefd en respectvol is, en bijdraagt aan een positieve discussieomgeving, maar mogelijk nog ruimte laat voor verbetering.  
+* Neutraal: Een neutrale tweet die geen duidelijke beleefdheid of onbeleefdheid uitdrukt, en de discussie niet beïnvloedt in termen van positiviteit of negativiteit.  
+* Gedeeltelijk waar: Een tweet die neigt naar onbeleefdheid, respectloosheid of negativiteit, maar mogelijk niet extreem schadelijk is voor de discussieomgeving.  
+* Helemaal waar: Een tweet die onbeleefd, respectloos, negatief of anderszins schadelijk is voor de discussieomgeving.  
