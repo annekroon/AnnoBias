@@ -19,8 +19,8 @@ stellingen <- question("stellingen",
                toxic = "Deze tweet bevat toxische taal.",
                misinformation = "Deze tweet bevat misinformatie."
              ),
-             codes = c( 'Helemaal onwaar', 
-                        'Gedeeltelijk onwaar', 
+             codes = c( 'Helemaal niet waar', 
+                        'Gedeeltelijk niet waar', 
                         'Neutraal', 
                         'Gedeeltelijk waar',
                         'Helemaal waar'))
