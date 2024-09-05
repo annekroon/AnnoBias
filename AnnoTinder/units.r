@@ -16,7 +16,7 @@ units_condition_1_2_3 <- create_units(df,
   id = "id"
 )
 
-units_condition_3_4_5 <- create_units(df,
+units_condition_4_5_6 <- create_units(df,
   set_markdown("review_message", review_message, align="left", text_size = 1),                 
   set_text("text", text, align = "left", text_size = 1.5, bold = TRUE, underline = TRUE),
   id = "id",

@@ -87,3 +87,11 @@ train_unit_2 <- create_unit('test vraag 2',
   set_train(variable = "toxic_training",
             value = 'Niet waar',
             message = "De tweet lijkt niet toxisch te zijn, aangezien de boodschap positief is en hoopvolle perspectieven biedt voor een vreedzamere toekomst in het Midden-Oosten."))
+
+
+lets_go_unit = create_unit("letsgo", 
+                           set_markdown("intro",  
+                                        "U heeft de oefenfase afgerond. U kunt nu doorgaan met de echte annotatiefase."),
+                           set_question('confirm', question = 'Begin annotatiefase', type='confirm')) 
+
+intro_units = c(intro_unit_1, intro_unit_2, train_unit_1,  train_unit_2, lets_go_unit)
