@@ -24,3 +24,4 @@ units_condition_4_5_6 <- create_units(df,
 
 unit_ids = df$id
 
+

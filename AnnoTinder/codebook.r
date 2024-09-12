@@ -7,7 +7,6 @@ read_and_concatenate <- function(file_path) {
 }
 
 
-?question
 ## misinformation
 stellingen <- question("stellingen", 
                   "In hoeverre zijn de volgende stellingen waar?",

@@ -36,12 +36,12 @@ debrief_condition1 = debrief(message=debrief_msg, link = "[completion link]", "K
 ## Upload job
 backend_connect('https://annotinder.up.railway.app', 'a.c.kroon@uva.nl')
 
-upload_job("AnnoBias test, set 1", units=units_condition_1_2_3, codebook=codebook, pre=intro_units, jobsets=jobsets, debrief=debrief_condition1)
-upload_job("AnnoBias test, set 2", units=units_condition_1_2_3, codebook=codebook, pre=intro_units, jobsets=jobsets, debrief=debrief_condition1)
-upload_job("AnnoBias test, set 3", units=units_condition_1_2_3, codebook=codebook, pre=intro_units, jobsets=jobsets, debrief=debrief_condition1)
-upload_job("AnnoBias test, set 4", units=units_condition_4_5_6, codebook=codebook, pre=intro_units, jobsets=jobsets, debrief=debrief_condition1)
-upload_job("AnnoBias test, set 5", units=units_condition_4_5_6, codebook=codebook, pre=intro_units, jobsets=jobsets, debrief=debrief_condition1)
-upload_job("AnnoBias test, set 6", units=units_condition_4_5_6, codebook=codebook, pre=intro_units, jobsets=jobsets, debrief=debrief_condition1)
+upload_job("AnnoBias test 2, set 1", units=units_condition_1_2_3, codebook=codebook, pre=intro_units, jobsets=jobsets, debrief=debrief_condition1)
+upload_job("AnnoBias test 2, set 2", units=units_condition_1_2_3, codebook=codebook, pre=intro_units, jobsets=jobsets, debrief=debrief_condition1)
+upload_job("AnnoBias test 2, set 3", units=units_condition_1_2_3, codebook=codebook, pre=intro_units, jobsets=jobsets, debrief=debrief_condition1)
+upload_job("AnnoBias test 2, set 4", units=units_condition_4_5_6, codebook=codebook, pre=intro_units, jobsets=jobsets, debrief=debrief_condition1)
+upload_job("AnnoBias test 2, set 5", units=units_condition_4_5_6, codebook=codebook, pre=intro_units, jobsets=jobsets, debrief=debrief_condition1)
+upload_job("AnnoBias test 2, set 6", units=units_condition_4_5_6, codebook=codebook, pre=intro_units, jobsets=jobsets, debrief=debrief_condition1)
 
 
 create_job('voorbeeld', units=units_condition_1_2_3, codebook=codebook) |>
